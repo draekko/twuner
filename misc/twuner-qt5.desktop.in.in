@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Twuner Qt5
+_GenericName=Twuner Twitter Client
+Type=Application
+_Comment=Lightweight Twitter client based on Qt5 and WebKit
+Exec=@TWUNER_QT_BIN@
+Icon=twuner
+Categories=Qt;Network;InstantMessaging;

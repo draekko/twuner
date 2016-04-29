@@ -1,0 +1,43 @@
+# List of source files which contain translatable strings.
+[encoding: UTF-8]
+#twuner
+${REL_SOURCE_ROOT}/twuner/__init__.py
+${REL_SOURCE_ROOT}/twuner/agent.py
+${REL_SOURCE_ROOT}/twuner/config.py
+${REL_SOURCE_ROOT}/twuner/gtknotification.py
+${REL_SOURCE_ROOT}/twuner/twuner.py
+${REL_SOURCE_ROOT}/twuner/utils.py
+${REL_SOURCE_ROOT}/twuner/view.py
+#twuner-gir
+${REL_SOURCE_ROOT}/twuner-gir/__init__.py
+${REL_SOURCE_ROOT}/twuner-gir/agent.py
+${REL_SOURCE_ROOT}/twuner-gir/config.py
+${REL_SOURCE_ROOT}/twuner-gir/dbusservice.py
+${REL_SOURCE_ROOT}/twuner-gir/gtknotification.py
+${REL_SOURCE_ROOT}/twuner-gir/twuner.py
+${REL_SOURCE_ROOT}/twuner-gir/inspector.py
+${REL_SOURCE_ROOT}/twuner-gir/utils.py
+${REL_SOURCE_ROOT}/twuner-gir/view.py
+${REL_SOURCE_ROOT}/twuner-gir/xhotkey.py
+#twuner-qt
+${REL_SOURCE_ROOT}/qt/src/common.h
+${REL_SOURCE_ROOT}/qt/src/formpost.cpp
+${REL_SOURCE_ROOT}/qt/src/formpost.h
+${REL_SOURCE_ROOT}/qt/src/twunerrequest.cpp
+${REL_SOURCE_ROOT}/qt/src/twunerrequest.h
+${REL_SOURCE_ROOT}/qt/src/twunerwebpage.cpp
+${REL_SOURCE_ROOT}/qt/src/twunerwebpage.h
+${REL_SOURCE_ROOT}/qt/src/kdetraybackend.cpp
+${REL_SOURCE_ROOT}/qt/src/kdetraybackend.h
+${REL_SOURCE_ROOT}/qt/src/main.cpp
+${REL_SOURCE_ROOT}/qt/src/mainwindow.cpp
+${REL_SOURCE_ROOT}/qt/src/mainwindow.h
+${REL_SOURCE_ROOT}/qt/src/qttraybackend.cpp
+${REL_SOURCE_ROOT}/qt/src/qttraybackend.h
+${REL_SOURCE_ROOT}/qt/src/trayiconbackend.h
+${REL_SOURCE_ROOT}/qt/src/trayiconinterface.h
+#desktop file
+${REL_SOURCE_ROOT}/misc/twuner-gtk2.desktop.in
+${REL_SOURCE_ROOT}/misc/twuner-gtk3.desktop.in
+${REL_SOURCE_ROOT}/misc/twuner-qt.desktop.in
+${REL_SOURCE_ROOT}/misc/twuner-kde.desktop.in

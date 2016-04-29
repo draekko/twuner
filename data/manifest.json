@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Twuner",
+  "description": "Twuner Twitter client for Chrome",
+  "version": "1.0.0",
+  "default_locale": "en",
+	"content_security_policy": "script-src 'self' 'unsafe-eval' https://maps.google.com; object-src 'self'",
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "icons": {
+    "16": "image/ic16_twuner.png",
+    "24": "image/ic24_twuner.png",
+    "128": "image/ic128_twuner.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "unlimitedStorage",
+    "notifications",
+    "contextMenus",
+    "background",
+    "tabs"
+  ]
+}
